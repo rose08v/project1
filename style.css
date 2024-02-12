@@ -1,0 +1,170 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    margin: 7px;
+    height: 941px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Asstes/images/banner-bg.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 0px 0px 150px 150px;
+    padding: 0px 130px;
+    gap: 90px;
+    position: relative;
+  
+}
+.header {
+    padding-top: 49px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 37px;
+   
+}
+.lnk1{
+        padding: 10px 20px 10px 22px;
+        font-size: 14px;
+        width: 60px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.10);
+        color: #fff;
+}
+.lnk2{
+    padding: 10px 20px 10px 22px;
+    font-size: 14px;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #ee626b;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.home{
+    padding-top: 1px;
+    padding-left: 153px;
+}
+.lnk{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.main-section{
+    display: flex;
+}
+.main{
+    display: flex;
+    gap:30px;
+}
+.main1{
+    display: flex;
+}
+.main1-sub {
+    padding-left: 205px;
+    padding-top: 131px;
+}
+.main2{
+    padding-right: 217px;
+    display: flex;
+    border-radius: 10px;
+}
+.main2 img{
+    border-radius: 20px;
+    position: relative;
+}
+.main-title{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-subtitle{
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #fff;
+}
+.main-subtitle img{
+    margin-left: 101px;
+}
+.main{
+    font-size: 19px;
+    color: #fff;
+}
+.main-txt{
+    gap: 21px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    max-width: 378px;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 0px 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+}
+button{
+    margin-left: -164px;
+    width: 22%;
+    height: 52px;
+    border: none;
+    padding: 19px 25px;
+    font-size: 12px;
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ee626b;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.amount{
+background-color: blue;
+width: 80px;
+height: 60px;
+padding-left: 11px;
+padding-top: 27px;
+border-radius: 20px;
+}
+.offer{
+    width: 80px;
+    height: 60px;
+    padding-left: 11px;
+    padding-top: 27px;
+    border-radius: 50px;
+    background-color: #ee626b;
+}
+.packages{
+display: flex;
+position: relative;
+top: -81px;
+
+
+}
+.package-freestorage{
+    margin-left: 158px;
+    padding: 50px 88px 51px 84px;
+    border-radius: 25px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+.image img{
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+}
+.slider-section{
+    position: absolute;
+}
